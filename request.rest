@@ -1,0 +1,56 @@
+//CURSOS
+GET http://localhost:3000/v1/cursos
+###
+GET http://localhost:3000/v1/cursos/5fc05674b19ba049ec7bae5b
+###
+
+POST http://localhost:3000/v1/cursos
+Content-Type: application/json
+
+{
+  "area": "Humanas",
+  "nome": "Letras",
+  "regime": "Presencial",
+  "numeroDeSemestres": 8
+
+}
+###
+PATCH   http://localhost:3000/v1/cursos/5fc05674b19ba049ec7bae5b
+Content-Type: application/json
+
+{
+  "area": "Ciêcias Humanas"
+}
+###
+DELETE  http://localhost:3000/v1/cursos/5fc05583597943395c24398a
+###
+
+//****ALUNOS
+
+GET http://localhost:3000/v1/alunos
+###
+GET http://localhost:3000/v1/alunos/5fc05f59c8cc6c38a878e4e5
+###
+
+POST http://localhost:3000/v1/alunos
+Content-Type: application/json
+
+{
+  "matricula": "11521302",
+  "anoSemestreDeEntrada": "2016",
+  "nomeCompleto": "Testando Teste",
+  "Curso": "Sistemas de Informação"
+
+}
+###
+
+PATCH   http://localhost:3000/v1/alunos/5fc05f59c8cc6c38a878e4e5
+Content-Type: application/json
+
+{
+  "anoSemestreDeEntrada": "2014"
+}
+###
+
+DELETE  http://localhost:3000/v1/alunos/5fc05f59c8cc6c38a878e4e5
+###

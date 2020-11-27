@@ -1,0 +1,27 @@
+{
+  "name": "api-node-exress-mongo",
+  "version": "1.0.0",
+  "description": "Implementação de solução de um microsserviço/API como resolução de atividade do curso de Sistemas de Informação do Centro Universitário Newton Paiva",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/marlonhqm/ArqAppWeb-Ex07_8B_NodeExpressMongo.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/marlonhqm/ArqAppWeb-Ex07_8B_NodeExpressMongo/issues"
+  },
+  "homepage": "https://github.com/marlonhqm/ArqAppWeb-Ex07_8B_NodeExpressMongo#readme",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "mongoose": "^5.10.16",
+    "nodemon": "^2.0.6"
+  }
+}
